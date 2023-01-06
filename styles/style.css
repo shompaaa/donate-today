@@ -4,7 +4,7 @@
 }
 
 section {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .btn-primary {
@@ -95,4 +95,98 @@ section {
 .donate-button {
     margin-top: 30px;
     text-align: center;
+}
+
+/* Donation Plan Section Styles */
+.donate-plan-text {
+    padding: 0 300px;
+    margin-bottom: 30px;
+}
+.donate-plan-box-container {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-around;
+}
+.donate-plan-title {
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.donate-plan-description {
+    font-size: 16px;
+    color: #707070;
+}
+.donate-plan-box {
+    padding: 60px 20px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.food {
+    background: rgba(79, 157, 166, 0.1);
+}
+.shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+.education {
+    background: #FFF4D6;
+
+}
+
+
+/* Lives Depend Section Styles */
+.lives-depend {
+    margin: 70px 200px 0 100px;
+}
+.lives-depend-container h3 {
+    text-align: left;
+}
+.lives-depend-container p {
+    margin: 35px 0;
+    text-align: left;
+}
+.lives-depend-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.survive {
+    margin: 100px 200px 0 100px;
+}
+
+/* Get My Update Section Styles */
+
+.update {
+    margin-top: 80px;
+    padding: 0 300px;
+}
+.update-text {
+    margin-bottom: 50px;
+}
+.update-input {
+    text-align: center;
+    background: #FFEEEE;
+    padding: 100px 50px;
+    border-radius: 10px;
+}
+.update-input input[type="email"], input[type="submit"] {
+   padding: 10px 100px 10px 10px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+/* Footer Section Start */
+.footer-container {
+    background: #0B0D17;
+    text-align: center;
+}
+
+.footer-container img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+.footer-text {
+    color: #959595;
+    display: block;
 }
